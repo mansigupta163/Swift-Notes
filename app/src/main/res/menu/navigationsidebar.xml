@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+
+
+
+<item
+    android:title="All Notes"
+    android:checked="true"
+    android:icon="@drawable/allnotes"
+    android:theme="@style/blue"
+    android:orderInCategory="101"
+    android:id="@+id/sidebar_item1"></item>
+
+    <item
+        android:title="Sync"
+        android:checked="false"
+        android:icon="@drawable/sync"
+        android:orderInCategory="102"
+        android:theme="@style/AppTheme"
+        android:id="@+id/sidebar_item2"></item>
+        <item
+            android:title="Camera"
+            android:checked="false"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:orderInCategory="103"
+            android:theme="@style/AppTheme"
+            android:onClick="selectImage"
+            android:id="@+id/camera"></item>
+
+        <item
+            android:title="Converted PDF"
+            android:checked="false"
+            android:icon="@drawable/ic_photo_camera_black_24dp"
+            android:orderInCategory="103"
+            android:theme="@style/AppTheme"
+            android:onClick="openConvertedPDFs"
+            android:id="@+id/convertedPDF"></item>
+
+        <item
+            android:title="Image to Text"
+            android:checked="false"
+           android:icon="@drawable/imageconversion"
+            android:orderInCategory="102"
+            android:theme="@style/AppTheme"
+            android:id="@+id/imgtotext"></item>
+    <item
+        android:title="Personal Details"
+        android:onClick="details"
+        android:checked="false"
+        android:orderInCategory="104"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:id="@+id/sidebar_item3"></item>
+
+    <item
+        android:title="Settings"
+        android:checked="false"
+        android:onClick="settings"
+        android:orderInCategory="105"
+        android:icon="@drawable/ic_settings_black_dp"
+        android:theme="@style/AppTheme"
+        android:id="@+id/sidebar_item4"></item>
+    </group>
+        <item
+            android:id="@+id/sidebar_item5"
+            android:onClick="exit"
+            android:checked="false"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Exit"
+            android:orderInCategory="106"></item>
+
+
+
+</menu>
+
+    <!-- group is used to add the line between the menu items
+    android:name="android:actionMenuTextColor" is used to set the color of menu item color
+    -->

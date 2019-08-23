@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    >
+
+    <item
+        android:id="@+id/fab_imagetotext"
+        android:icon="@drawable/imagetotext"
+        android:title="Imagetotext"
+
+        android:orderInCategory="101"
+        ></item>
+    <item
+        android:id="@+id/fab_camera"
+        android:title="Camera"
+        android:icon="@drawable/camera"
+        android:enabled="true"
+        android:orderInCategory="102"
+        ></item>
+    <item
+        android:title="Add note"
+        android:icon="@drawable/addnote"
+        android:id="@+id/fab_note"
+        android:enabled="true"
+        android:orderInCategory="103"
+        ></item>
+</menu>

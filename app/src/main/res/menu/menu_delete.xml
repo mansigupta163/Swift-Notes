@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity" >
+
+
+
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/share"
+        android:hint="@string/action_search"
+        android:orderInCategory="98"
+
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/decryptionkey"
+        android:title="@string/action_search"
+        android:icon="@drawable/encryption"
+        android:hint="@string/action_search"
+        android:orderInCategory="99"
+
+        app:showAsAction="ifRoom|collapseActionView" />
+
+    <item android:id="@+id/action_delete"
+        android:title="@string/action_delete"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_delete"
+        app:showAsAction="always" />
+
+</menu>

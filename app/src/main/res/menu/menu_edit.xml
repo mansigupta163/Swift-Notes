@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EditActivity" >
+
+    <item
+        android:id="@+id/gvoice"
+        android:icon="@drawable/voice"
+        android:title="Voice to text"
+        android:orderInCategory="98"
+        app:showAsAction="always"></item>
+    <item android:id="@+id/action_note_colour"
+        android:title="@string/action_note_colour"
+        android:orderInCategory="99"
+        android:icon="@drawable/ic_note_colour"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_font_size"
+        android:title="@string/action_font_size"
+        android:orderInCategory="102"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_hide_show_body"
+        android:title="@string/action_hide_body"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/voice"
+        android:title="googlevoice"
+        android:orderInCategory="103"
+        app:showAsAction="never" />
+</menu>
